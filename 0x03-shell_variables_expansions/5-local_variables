@@ -1,2 +1,2 @@
 #!/bin/bash
-set | grep -v "^BASH" | grep -v "^PWD" | grep -v "^_" | cut -d= -f1
+declare -p
