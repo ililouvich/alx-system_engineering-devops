@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' {a..z}{a..z} | grep -v oo | sort | sed -n '/^aa/,'
+printf '%s\n' {a..z}{a..z} | grep -v oo | grep '^aa\|^ab\|^ac\|^ad\|^ae\|^af\|^ag\|^ah\|^ai\|^aj\|^ak\|^al\|^am\|^an\|^ao\|^ap\|^aq\|^ar\|^as\|^at\|^au\|^av\|^aw\|^ax\|^ay\|^az'
