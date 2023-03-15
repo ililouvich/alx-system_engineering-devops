@@ -1,2 +1,2 @@
 #!/bin/bash
-set | grep -E "^([[:alpha:]_][[:alnum:]_]*=|declare -f)" | less
+(set; declare -F) | less
